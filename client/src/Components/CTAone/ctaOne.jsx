@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const CtaOne = () => {
   const navigate = useNavigate();
   return (
-    <div id="ctaOne">
+    <section id="ctaOne">
       <h2 className="ctaTitle">Express Yourself with Unique Nails</h2>
       <p>Book an appointment today and let your nails shine with creativity.</p>
       <div className="callButtons">
@@ -16,7 +16,7 @@ const CtaOne = () => {
           Learn More
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

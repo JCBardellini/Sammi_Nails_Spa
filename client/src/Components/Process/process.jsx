@@ -11,18 +11,22 @@ const Process = () => {
     {
       icon: selection,
       alt: "Hand holding nail polish bottle icon",
+      id: 1,
     },
     {
       icon: customization,
       alt: "Different nail polish bottles icon",
+      id: 2,
     },
     {
       icon: service,
       alt: "Painting single nail icon",
+      id: 3,
     },
     {
       icon: express,
       alt: "Single nail and brushes icon",
+      id: 4,
     },
   ];
   const processSteps = [
@@ -65,12 +69,12 @@ const Process = () => {
             {/* need to have img horizontal line and img */}
             {processIcons.map((icon, index) => {
               return (
-                <>
+                <React.Fragment key={icon.id}>
                   <img src={icon.icon} alt={icon.alt} className="icons" />
                   {index < processIcons.length - 1 && (
                     <div className="line"></div>
                   )}
-                </>
+                </React.Fragment>
               );
             })}
           </div>
