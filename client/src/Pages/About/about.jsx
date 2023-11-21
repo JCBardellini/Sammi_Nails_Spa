@@ -9,7 +9,7 @@ import AboutHero from "../../assets/Images/aboutHero.png";
 
 const About = () => {
   return (
-    <div>
+    <main id="aboutPage">
       <div className="aboutHero">
         <img
           src={AboutHero}
@@ -23,7 +23,7 @@ const About = () => {
       <CtaOne />
       <Employee />
       <ContactInfo />
-    </div>
+    </main>
   );
 };
 

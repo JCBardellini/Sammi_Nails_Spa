@@ -1,6 +1,13 @@
+#aboutPage {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 500px 500px 250px 400px 220px;
+    gap: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
 .aboutHero {
     width: 100%;
-    margin-top: 15px;
 }
 .aboutHeroImg {
     height: 600px;
