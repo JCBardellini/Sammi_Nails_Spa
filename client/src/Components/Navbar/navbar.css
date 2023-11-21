@@ -1,0 +1,38 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1024px;
+    /* margin: 0 75px; */
+    height: 75px;
+    background: #424348
+}
+.siteName {
+    margin-left: 20px;
+    font-weight: 400;
+}
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    list-style-type: none;
+}
+.navLink a {
+    line-height: 150%;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    color: rgba(255, 211, 129, 0.98);
+    text-decoration-line: none;
+    border-bottom: 1px solid rgba(255, 211, 129, 0.98);
+}
+.contactUs {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

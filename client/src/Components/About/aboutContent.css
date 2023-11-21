@@ -1,0 +1,25 @@
+  #aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .aboutTitle {
+    font-size: 30px;
+    line-height: 150%;
+  }
+  .whoWeAreContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ownersImg {
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+  }
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    gap: 15px;
+  }
