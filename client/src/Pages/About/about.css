@@ -1,0 +1,17 @@
+.aboutHero {
+    width: 100%;
+    margin-top: 15px;
+}
+.aboutHeroImg {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.aboutHeroTitle {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: #fff;
+    font-size: 45px;
+    line-height: 150%;
+}
