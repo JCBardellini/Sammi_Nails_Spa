@@ -1,0 +1,41 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 100%;
+    /* margin: 0 75px; */
+    height: 200px;
+    background: #424348
+}
+.logo {
+    width: 125px;
+}
+.footerContainer {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.hours {
+    list-style-type: none;
+    width: 300px px;
+    text-align: center;
+    margin-left: 50px;
+}
+.singleHours {
+    margin-top: 5px;
+    line-height: 150%;
+    color: rgba(255, 211, 129, 0.98);
+}
+.footerIconsContainer {
+    display: flex;
+    gap: 10px;
+}
+.footerIcons {
+    color: black;
+}
+#footer p {
+    color: rgba(255, 211, 129, 0.98);
+}

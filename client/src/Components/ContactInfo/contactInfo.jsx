@@ -15,7 +15,7 @@ const ContactInfo = () => {
     {
       name: "Phone",
       description: "Call us for any inquiries or to schedule an appointment.",
-      phoneNumber: "(425) 379-6178",
+      phoneNumber: "(425) 379 - 6178",
       icon: <PhoneIcon />,
     },
   ];
