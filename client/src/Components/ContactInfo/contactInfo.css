@@ -1,0 +1,15 @@
+#contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 200px;
+}
