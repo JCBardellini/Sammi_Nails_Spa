@@ -1,0 +1,37 @@
+.contact-form {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contact-form .name-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contact-form .name-fields input {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 225px;
+}
+
+.contact-form button {
+    width: 160px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}

@@ -1,0 +1,68 @@
+.gallery-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gallery-header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    height: 80px;
+}
+
+.logo-image {
+    height: 110px;
+    width: 110px;
+    display: flex;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /* Adjust size as needed */
+    gap: 10px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+.image-item {
+    background-color: #eee;
+    height: 300px;
+
+}
+
+
+.call-to-action {
+    margin: 20px 0;
+}
+
+.call-to-action p {
+    margin-bottom: 10px;
+}
+
+.call-to-action button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.image-item {
+    position: relative;
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    /* To ensure there's no extra space under the image */
+}
