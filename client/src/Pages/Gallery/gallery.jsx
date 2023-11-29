@@ -199,7 +199,7 @@ const imageObjects = [
 const Gallery = () => {
   return (
     <div className="gallery-container">
-      <h1>Check our recent work:</h1>
+      <h2>Check our recent work:</h2>
       <p>Heart and save to show your nail artist next time!</p>
       <div className="image-grid">
         {imageObjects.map((image, index) => (
