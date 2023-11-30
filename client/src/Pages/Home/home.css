@@ -1,0 +1,208 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Edu+TAS+Beginner:wght@500&family=Handlee&family=Orbitron&display=swap');
+ #homepage *{
+  font-family: 'Aleo', serif;
+  line-height: 150%;
+ }
+/* Font */
+
+a{
+  text-decoration: none;
+}
+
+#homepage{
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.7675fr 0.3fr 0.6fr 0.3fr 1.375fr 0.5225fr 0.5338fr 0.5fr;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+
+
+  /* Quote code */
+  .homepage-quote{
+    background: #D9D9D9;
+    grid-row: 4;
+    text-align: center;
+    padding-bottom:10px;
+    width: 100%;
+    height: 243px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    max-width: 1900px;
+  }
+
+  .homepage-quote h2{
+    color: #000;
+
+    /* Heading/H2 */
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+  }
+  
+  .homepage-quote button{
+    margin: auto;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #000;
+    background-color: transparent;
+  }
+
+
+  /* Call to action */
+  .cta{
+    grid-row: 7;
+    width: 100%;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../../assets/CoverImages/pexels-rheza-aulia-3375210.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 64px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1900px;
+  }
+  
+.cta h2{
+  color: var(--White, #FFF);
+  text-align: center;
+  
+  /* Heading/H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+
+.cta p{
+  color: var(--White, #FFF);
+text-align: center;
+
+/* Text/Medium/Normal */
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+
+
+.cta button{
+  background-color: #f0ece2;
+  border: none;
+  /* border-radius: 10px; */
+  padding: 5px;
+  width: fit-content;
+}
+
+.cta-button-container{
+  display: flex;
+}
+
+.cta-button-container .book-btn{
+  display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+  border: 1px solid #000;
+background: var(--Black, #000);
+color: white;
+}
+
+.cta-button-container .learn-more{
+  display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border: 1px solid #FFF;
+background-color: transparent;
+color: white;
+}
+  /* Contact info */
+  
+  .contact-area{
+    grid-row: 8;
+    display: flex;
+    width: 100%;
+  }
+  
+  .contact-google-maps{
+    width: 49%;
+  }
+
+  .contact-info{
+    width:49%;
+    text-align: left;
+  }
+
+  .contact-hours{
+    text-align: left;
+  }
+  
+  .phone-email{
+    display: flex;
+    width: 95%;
+    text-align: left;
+  justify-content: space-between;
+
+
+  }
+  
+ 
+.margin{
+  margin: 0 40px;
+}
+
+
+/*Queries*/
+@media screen and (min-width:1100px){
+  #homepage{
+   grid-template-rows: 0.3fr 0.2fr 0.2fr 0.1fr 1fr fit-content(470px) 0.1fr 0.1fr;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1099px){
+  #homepage{
+  margin: 0;
+    grid-template-rows: 0.5fr 0.2fr 0.5fr 0.07fr 0.7fr 0.15fr 0.15fr 0.3fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  #homepage{
+    grid-template-rows:0.3fr 0.1fr 0.5fr 0.1fr 0.5fr 0.2fr 0.1fr;
+  }
+  .homepage-quote{
+    height: calc(243px + 100px);
+
+  }
+  .homepage-quote h2{
+    width: calc(100% - 10%);
+    margin: auto;
+  }
+}
+
+/* Queries */

@@ -1,0 +1,280 @@
+.main-services{
+  grid-row: 5;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  width: 90%;
+  max-width: 1170px;
+  }
+
+.Pedicure-content{
+  gap:20px
+}
+.Manicure-content{
+  gap:20px
+}
+.Waxing-content{
+  gap:20px
+}
+.service-container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+  .services-button{
+    margin: auto;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #000;
+    background-color: transparent;
+  }
+
+  @media screen and (min-width:1100px){
+    .Pedicure-container{
+      flex-direction: row;
+      justify-content: space-between;
+     display: flex;
+    }
+    .Pedicure-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+    }
+    .Pedicure-content h2{
+      text-align: center;
+      color: #000;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .Pedicure-container p{
+      color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+    }
+    .Pedicure-container img{
+      margin: auto;
+    }
+
+    .Manicure-container{
+      justify-content: space-between;
+      flex-direction: row-reverse;
+     display: flex;
+    }
+
+    .Manicure-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+    }
+    .Manicure-content h2{
+      text-align: center;
+      color: #000;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .Manicure-container p{
+      color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+    }
+    .Manicure-container img{
+      width: 48%;
+    }
+
+    .Waxing-container{
+      justify-content: space-between;
+      flex-direction: row;
+     display: flex;
+    }
+
+    .Waxing-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+    }
+    .Waxing-content h2{
+      text-align: center;
+      color: #000;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .Waxing-container p{
+      color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+    }
+    .Waxing-container img{
+      width: 48%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width:1099px){
+    .main-services{
+    margin: auto;
+    }
+    .Pedicure-container{
+      flex-direction: row;
+      justify-content: space-between;
+     display: flex;
+    }
+    .Pedicure-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+    }
+    .Pedicure-content h2{
+      text-align: center;
+      text-align: center;
+      color: #000;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .Pedicure-content p{
+      color: #000;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .Pedicure-container img{
+      width: 48%;
+    }
+
+    .Manicure-container{
+      justify-content: space-between;
+      flex-direction: row-reverse;
+     display: flex;
+    }
+
+    .Manicure-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+    }
+    .Manicure-content h2{
+      text-align: center;
+      text-align: center;
+      color: #000;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .Manicure-content p{
+      color: #000;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .Manicure-container img{
+      width: 48%;
+    }
+
+    .Waxing-container{
+      justify-content: space-between;
+      flex-direction: row;
+     display: flex;
+    }
+
+    .Waxing-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 48%;
+    }
+    .Waxing-content h2{
+      text-align: center;
+      text-align: center;
+      color: #000;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .Waxing-content p{
+      color: #000;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .Waxing-container img{
+      width: 48%;
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    .main-services{
+      grid-row: 5;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 80%;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+    .service-container div:nth-child(2){
+      margin: auto;
+      width: 50%;
+    }
+    .service-container h2{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+      }
+      .service-image{
+        margin: auto;
+        width: 50%;
+      }
+    
+}
