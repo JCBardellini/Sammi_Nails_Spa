@@ -276,5 +276,80 @@ line-height: 120%; /* 57.6px */
         margin: auto;
         width: 50%;
       }
+    .Pedicure-content{
+      gap: 30px;
+      display: flex;
+      flex-direction: column; 
+    }
+    .Pedicure-content h2{
+      color: #000;
+text-align: center;
+
+/* Heading/H2 - Mobile */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 43.2px */
+    }
     
-}
+    .Manicure-content h2{
+      color: #000;
+text-align: center;
+
+/* Heading/H2 - Mobile */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 43.2px */
+    }
+
+    .Waxing-content h2{
+      color: #000;
+text-align: center;
+
+/* Heading/H2 - Mobile */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 43.2px */
+    }
+    .Manicure-content p{
+      color: #000;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 24px */
+    }
+    .Pedicure-content p{
+      color: #000;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 24px */
+    }
+    .Waxing-content p{
+      color: #000;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 24px */
+    }
+
+  .Manicure-content{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Waxing-content{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+    }
+ 
