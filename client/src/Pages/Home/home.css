@@ -179,7 +179,7 @@ color: white;
 /*Queries*/
 @media screen and (min-width:1100px){
   #homepage{
-   grid-template-rows: 0.3fr 0.2fr 0.2fr 0.1fr 1fr fit-content(470px) 0.1fr 0.1fr;
+   grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr;
   }
 
 }
@@ -187,13 +187,13 @@ color: white;
 @media screen and (min-width: 768px) and (max-width:1099px){
   #homepage{
   margin: 0;
-    grid-template-rows: 0.5fr 0.2fr 0.5fr 0.07fr 0.7fr 0.15fr 0.15fr 0.3fr;
+    grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr;
   }
 }
 
 @media screen and (max-width:767px) {
   #homepage{
-    grid-template-rows:0.3fr 0.1fr 0.5fr 0.1fr 0.5fr 0.2fr 0.1fr;
+    grid-template-rows:400px  760px 3460px 350px 1fr fit-content(470px) 400px 0.1fr;
   }
   .homepage-quote{
     height: calc(243px + 100px);
