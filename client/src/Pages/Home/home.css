@@ -63,83 +63,7 @@ a{
 
 
   /* Call to action */
-  .cta{
-    grid-row: 7;
-    width: 100%;
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../../assets/CoverImages/pexels-rheza-aulia-3375210.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding: 64px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    max-width: 1900px;
-  }
   
-.cta h2{
-  color: var(--White, #FFF);
-  text-align: center;
-  
-  /* Heading/H2 */
-  font-family: Roboto;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 57.6px */
-}
-
-.cta p{
-  color: var(--White, #FFF);
-text-align: center;
-
-/* Text/Medium/Normal */
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 27px */
-}
-
-
-.cta button{
-  background-color: #f0ece2;
-  border: none;
-  /* border-radius: 10px; */
-  padding: 5px;
-  width: fit-content;
-}
-
-.cta-button-container{
-  display: flex;
-}
-
-.cta-button-container .book-btn{
-  display: flex;
-padding: 12px 24px;
-justify-content: center;
-align-items: center;
-gap: 8px;
-  border: 1px solid #000;
-background: var(--Black, #000);
-color: white;
-}
-
-.cta-button-container .learn-more{
-  display: flex;
-padding: 12px 24px;
-justify-content: center;
-align-items: center;
-gap: 8px;
-border: 1px solid #FFF;
-background-color: transparent;
-color: white;
-}
   /* Contact info */
   
   .contact-area{
@@ -171,10 +95,6 @@ color: white;
   }
   
  
-.margin{
-  margin: 0 40px;
-}
-
 
 /*Queries*/
 @media screen and (min-width:1100px){

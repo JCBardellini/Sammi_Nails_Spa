@@ -1,0 +1,40 @@
+.kids-services-container {
+  padding: 20px;
+  text-align: center;
+
+}
+
+.kids-and-Image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.kids-services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.kids-service-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 5px 5px;
+}
+
+
+.kidsImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.waxing{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  .kids-and-Image {
+    grid-template-columns: 1fr;
+  }
+}

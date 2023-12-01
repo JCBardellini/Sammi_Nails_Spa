@@ -1,0 +1,80 @@
+.popular-options {
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.most-and-deals h4{
+  color: #000;
+text-align: center;
+
+/* Heading/H4 - Mobile */
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+margin: 0;
+}
+
+.most-requested, .combination-deals {
+  margin-bottom: 20px;
+}
+
+.most-requested {
+  width: 311px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 25px;
+}
+
+.most-requested ul{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.most-requested h3{
+  color: #000;
+  text-align: center;
+
+  /* Heading/H4 - Mobile */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+}
+
+.most-requested ul{
+  padding: 0;
+  width: 100%;
+  line-height: 150%;
+  margin:0;
+}
+
+
+.service-price{
+  margin: 25px 0;
+}
+
+.service-item p{
+  width: 206.062px;
+text-align: left;
+}
+
+.most-and-deals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} 
+
+
+
+@media (max-width: 760px) {
+  .most-and-deals {
+    grid-template-columns: 1fr;
+  }
+}

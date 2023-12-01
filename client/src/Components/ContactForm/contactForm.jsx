@@ -51,22 +51,9 @@ export const ContactForm = () => {
     }));
   };
 
-  {
-    /*contact form component
-          form 
-          first name  - last name
-          email
-          message
-          state, handlesubmit function, handlechange function
-          submit
-          make sure input is require
-          be able to log the input in the console
-
-          <ContactForm />
-           */
-  }
+  
   return (
-    <div>
+    <div id="contact-page-contact-form">
       <form className="contact-form">
         <div className="name-fields">
           {/* Name Inputs */}

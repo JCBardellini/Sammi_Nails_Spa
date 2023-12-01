@@ -1,0 +1,49 @@
+.waxing-services-container {
+  padding: 20px;
+  text-align:center; 
+}
+
+.waxing-and-Image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.waxing-services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.waxing-service-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px 5px 20px;
+}
+
+.kids-service-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+.waxImage {
+
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 760px) {
+  .waxing-and-Image{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 0.5fr);
+  }
+  .waxImage{
+    grid-row: 1;
+  }
+}
+
+  

@@ -7,10 +7,16 @@
   
 }
 body {
-  margin: 0 ;
+  margin: 0 50px;
   line-height: 150%;
+  /* width:100% */
 }
 h5 {
   font-size: 24px;
 }
 
+@media  screen and (max-width:767px) {
+  body{
+    margin: 0 30px;
+  }
+}

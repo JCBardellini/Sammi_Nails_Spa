@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./contactInfo.css";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";

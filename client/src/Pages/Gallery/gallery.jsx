@@ -32,6 +32,7 @@ import pedicurePalette from "../../Assets/Images/img30.png";
 import submergedSerenity from "../../Assets/Images/img31.png";
 import classicTimekeeper from "../../Assets/Images/img32.png";
 import CtaOne from "../../Components/CTAone/ctaOne";
+import CallToAction from "../../Components/CallToAction/CallToAction";
 
 const imageObjects = [
   {
@@ -198,9 +199,9 @@ const imageObjects = [
 
 const Gallery = () => {
   return (
-    <div className="gallery-container">
-      <h2>Check our recent work:</h2>
-      <p>Heart and save to show your nail artist next time!</p>
+    <section id="gallery-container">
+      <h2>Gallery</h2>
+      {/* ADD HEART FUNCTION */}
       <div className="image-grid">
         {imageObjects.map((image, index) => (
           <div key={index} className="image-item">
@@ -208,8 +209,12 @@ const Gallery = () => {
           </div>
         ))}
       </div>
-      <CtaOne />
-    </div>
+
+      {/* Call to action */}
+      <CallToAction />
+      {/* Call to action */}
+
+    </section>
   );
 };
 
