@@ -4,6 +4,11 @@
 
 }
 
+.popular-kids{
+width: 50%;
+margin: auto;
+}
+
 .kids-and-Image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

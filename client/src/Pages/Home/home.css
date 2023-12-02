@@ -109,19 +109,39 @@ a{
   margin: 0;
     grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr;
   }
+ 
 }
 
 @media screen and (max-width:767px) {
   #homepage{
-    grid-template-rows:400px  760px 3460px 350px 1fr fit-content(470px) 400px 0.1fr;
+    grid-template-rows:500px 760px 1fr 350px 0fr fit-content(410px) 400px 0.1fr;
   }
   .homepage-quote{
-    height: calc(243px + 100px);
-
+    width: 395px;
+height: 216px;
   }
   .homepage-quote h2{
-    width: calc(100% - 10%);
-    margin: auto;
+    width: 311px;
+    color: #000;
+text-align: center;
+
+/* Heading/H4 - Mobile */
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+border: none;
+  }
+  .homepage-quote button{
+    display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+  }
+  .hero-text{
+    top:45%;
   }
 }
 

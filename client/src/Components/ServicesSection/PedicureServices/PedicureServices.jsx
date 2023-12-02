@@ -49,14 +49,15 @@ import './PedicureServices.css';
     <section className="pedicure-services-section">
       <div className='popular'>
         <h2>Pedicures</h2>
-        <div className="services-description">
-          All our pedicure services offer a comprehensive experience, including a warm foot bath, trimming, shaping, filing, buffing, cuticle maintenance, callus treatment, a luxurious sugar scrub, mask and massage, and concluding with a hot towel and your choice of regular polish.
+        <div className='services-description'>
+          <p>All our pedicure services offer a comprehensive experience, including a warm foot bath, trimming, shaping, filing, buffing, cuticle maintenance, callus treatment, a luxurious sugar scrub, mask and massage, and concluding with a hot towel and your choice of regular polish.
+            </p>
         </div>
         <ul className="services-list">
           {services.map((serviceCategory, index) => {
-           return <section className='most-requested' key={index}>
+           return <section className='pedicure-most-requested' key={index}>
               <h3>{serviceCategory.category}</h3>
-              <p className='services-description'>{serviceCategory.description}</p>
+                <p>{serviceCategory.description}</p>
               <ul className='services-list'>
                 {serviceCategory.items.map((item, index) => (
                   <li key={index} className="service-item">

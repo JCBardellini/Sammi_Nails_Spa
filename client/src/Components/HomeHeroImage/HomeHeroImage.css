@@ -67,10 +67,23 @@ line-height: 150%; /* 30px */
   }
 
   @media all and (max-width:767px) {
+    
     .hero-text{
       max-width: 311px;
     }
 
+    .hero-text h2{
+      color: var(--White, #FFF);
+      text-align: center;
+      
+      /* Heading/H4 - Mobile */
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 33.6px */
+      border: none;
+    }
     .hero-text p{
       display: none;
     }

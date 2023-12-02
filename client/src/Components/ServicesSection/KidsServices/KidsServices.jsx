@@ -14,7 +14,7 @@ const KidsServices = () => {
 
   return (
     <section className="kids-services-container">
-      <div className="popular">
+      <div className="popular-kids">
 
       <h2>Kids Services</h2>
       </div>

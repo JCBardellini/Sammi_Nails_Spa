@@ -17,26 +17,27 @@ const Services = () => {
       <div className="hero-text">
         <h4>Polish to perfection, from tips to toes</h4>
         </div>
-      
-        <PopularOptions />
+      <div className='service-page-service-container'>
+          <PopularOptions />
 
-        <div className='mani-and-pedi margin'>
-        <ManicureServices />
-        <PedicureServices />
-        </div>
-        {/* <div className='call-to-action-item'>
-          <div className='inside-call-to-action'>
-            <span className='white-box'>
-              <p>“Sammi Nails Spa is the best salon around, I wouldnt go anywhere else”</p>
-              <p>Sonita</p>
-              </span>
-            
-          <img src={hero2} alt="heroImage2" className='heroImage2' />
+          <div className='mani-and-pedi margin'>
+          <ManicureServices />
+          <PedicureServices />
           </div>
-        </div> */}
-        <div className="kids-and-waxing-section margin">
-          <KidsServices />
-          <WaxingServices />
+          {/* <div className='call-to-action-item'>
+            <div className='inside-call-to-action'>
+              <span className='white-box'>
+                <p>“Sammi Nails Spa is the best salon around, I wouldnt go anywhere else”</p>
+                <p>Sonita</p>
+                </span>
+              
+            <img src={hero2} alt="heroImage2" className='heroImage2' />
+            </div>
+          </div> */}
+          <div className="kids-and-waxing-section margin">
+            <KidsServices />
+            <WaxingServices />
+      </div>
         </div>
 
       </div>

@@ -16,8 +16,8 @@ const combinationDeals = [
 
 const PopularOptions = () => {
   return (
-    <section className="popular-options margin">
-      <h2 className='Popular'>Popular Options</h2>
+    <section className="popular-options">
+      <h2>Popular Options</h2>
       <div className='most-and-deals'>
         <div className="most-requested">
           <h4>Most Requested</h4>
