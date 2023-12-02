@@ -45,10 +45,12 @@ align-items: center;
       flex-direction: column;
       justify-content: space-between;
       width: 48%;
+     
     }
     .Pedicure-content h2{
-      text-align: center;
+      margin: auto;
       color: #000;
+      text-align: center;
 
 /* Heading/H2 */
 font-family: Roboto;
@@ -56,6 +58,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%; /* 57.6px */
+border: none;
     }
     .Pedicure-container p{
       color: #000;
@@ -84,6 +87,8 @@ line-height: 150%; /* 30px */
     .Manicure-content h2{
       text-align: center;
       color: #000;
+      border: none;
+      margin: auto;
 
 /* Heading/H2 */
 font-family: Roboto;
@@ -119,6 +124,8 @@ line-height: 150%; /* 30px */
     .Waxing-content h2{
       text-align: center;
       color: #000;
+      margin: auto;
+      border: none;
 
 /* Heading/H2 */
 font-family: Roboto;
@@ -265,7 +272,6 @@ line-height: 120%; /* 57.6px */
     }
     .service-container div:nth-child(2){
       margin: auto;
-      width: 50%;
     }
     .service-container h2{
         text-align: center;

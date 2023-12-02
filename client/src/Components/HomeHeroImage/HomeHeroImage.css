@@ -66,10 +66,42 @@ font-weight: 400;
 line-height: 150%; /* 30px */
   }
 
+
+  @media screen and (min-width:1100px) {
+
+    .hero-text h2{
+      color: var(--White, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  width: 100%;
+  border:none;
+    }
+    .hero-text p{
+      color: var(--Black, #000);
+  text-align: center;
+  
+  /* Text/Large/Normal */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+    }
+  }
   @media all and (max-width:767px) {
-    
-    .hero-text{
+    .hero-image{
+      width: 100%;
+
+    }
+
+
+    .hero-image .hero-text{
       max-width: 311px;
+      top: 45%;
     }
 
     .hero-text h2{
@@ -91,3 +123,4 @@ line-height: 150%; /* 30px */
       display: none;
     }
   }
+

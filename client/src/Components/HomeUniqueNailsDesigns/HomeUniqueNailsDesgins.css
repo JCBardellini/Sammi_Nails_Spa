@@ -65,6 +65,33 @@ line-height: 150%; /* 30px */
     }
 
 
+    @media screen and (min-width:1100px) {
+    .unique-nails-designs h2{
+      border: none;
+      width: 610px;
+      color: var(--Black, #000);
+text-align: center;
+
+/* Heading/H2 */
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+    }
+    .unique-nails-designs p{
+      width: 612px;
+      color: var(--Black, #000);
+
+/* Text/Large/Normal */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+    }
+    }
+
     @media screen and (min-width: 768px) and (max-width:1099px){
       .after-hero-comp{
       margin: 0 40px;

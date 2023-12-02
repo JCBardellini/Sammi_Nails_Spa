@@ -6,14 +6,14 @@
     gap: 10px;
     align-items: center;
   }
-  .services-title{
+  .home-services-title{
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     gap: 35px;
   }
 
-  .services-title h2{
+  .home-services-title h2{
     color: #000;
     margin: auto;
 text-align: center;
@@ -24,9 +24,10 @@ font-style: normal;
 font-weight: 700;
 line-height: 120%; /* 57.6px */
 width: 100%;
+border: none;
   }
   
-.services-title p{
+.home-services-title p{
   margin: auto;
   width: 940px;
   color: var(--Black, #000);
@@ -40,7 +41,7 @@ font-weight: 400;
 line-height: 150%; /* 30px */
 }
   
-  .services-list{
+  .home-services-list{
     width: 100%;
     display: flex;
     text-align: center;
@@ -49,7 +50,7 @@ line-height: 150%; /* 30px */
     max-width: 1800px;
   }
 
-  .services-list div > h4{
+  .home-services-list div > h4{
     color: var(--Black, #000);
 text-align: center;
 
@@ -61,7 +62,7 @@ font-weight: 700;
 line-height: 130%; /* 41.6px */
   }
 
-  .services-list div > p{
+  .home-services-list div > p{
  color: var(--Black, #000);
 text-align: center;
 
@@ -73,7 +74,7 @@ font-weight: 400;
 line-height: 150%; /* 30px */
   }
   
-  .services-list img{
+  .home-services-list img{
     width: 363px;
     height: fit-content;
     flex-shrink: 0;
@@ -92,7 +93,7 @@ line-height: 150%; /* 30px */
 
   
 
-.services-list div{
+.home-services-list div{
     display: flex;
     flex-direction: column;
     width: 363px;
@@ -103,7 +104,7 @@ line-height: 150%; /* 30px */
     align-items: center;
     }
 
-.services-list div h3{
+.home-services-list div h3{
     width: 70%;
     margin-bottom: 0;
   }
@@ -114,6 +115,11 @@ line-height: 150%; /* 30px */
 
   .right{
     align-self: center;
+  }
+
+
+  @media screen and (min-width:1100px) {
+ 
   }
 
   @media screen and (min-width: 768px) and (max-width:1099px){
@@ -129,7 +135,7 @@ line-height: 150%; /* 30px */
       margin: auto;
     }
 
-    .services-title h2{
+    .homes-services-title h2{
       color: var(--Black, #000);
 text-align: center;
 
@@ -142,7 +148,7 @@ line-height: 140%; /* 33.6px */
 width: 311px;
 border: none;
     }
-    .services-title p{
+    .homes-services-title p{
       width: 311px;
       color: var(--Black, #000);
 
@@ -154,17 +160,17 @@ font-weight: 400;
 line-height: 150%; /* 24px */
 text-align: left;
     }
-    .services-list{
+    .home-services-list{
       flex-direction: column;
     }
-    .services-list div img{
+    .home-services-list div img{
       width: 311px;
-      height: 200px;
+      height: 350px;
     }
-    .services-list div{
+    .home-services-list div{
       width:311px;
     }
-    .services-list div h4{
+    .home-services-list div h4{
       color: var(--Black, #000);
 text-align: center;
 
@@ -177,7 +183,7 @@ line-height: 140%; /* 33.6px */
 width: 311px;
 border: none;
     }
-    .services-list div p{
+    .home-services-list div p{
       width: 311px;
       color: var(--Black, #000);
 
@@ -188,7 +194,28 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
 text-align: left;
+    }  
+    .home-services-title h2{
+      color: black;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      border: none;
+      width: 311px;
+    }
+    .home-services-title p{
+      width: 311px;
+      color: var(--Black, #000);
+
+/* Text/Regular/Normal */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
     }
   }
 
- 

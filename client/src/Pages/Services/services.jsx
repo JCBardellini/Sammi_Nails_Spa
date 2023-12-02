@@ -14,7 +14,7 @@ const Services = () => {
     <>
       <div className="services-section">
       <div className='heroImage' />
-      <div className="hero-text">
+      <div className="service-page-hero-text">
         <h4>Polish to perfection, from tips to toes</h4>
         </div>
       <div className='service-page-service-container'>

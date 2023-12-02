@@ -11,7 +11,7 @@
 }
 
 .most-and-deals{
-  gap: 50px;
+  gap: 100px;
 }
 
 .most-and-deals h4{
@@ -19,7 +19,6 @@
 text-align: center;
 
 /* Heading/H4 - Mobile */
-font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -53,7 +52,6 @@ margin: 0;
   text-align: center;
 
   /* Heading/H4 - Mobile */
-  font-family: Roboto;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;

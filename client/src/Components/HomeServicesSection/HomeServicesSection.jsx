@@ -27,11 +27,11 @@ const HomeServicesSection = () => {
 
   return (
     <section className="home-services-section">
-        <div className="services-title">
+        <div className="home-services-title">
             <h2>Express Your Individuality with Distinctive Nail Art</h2>
             <p>At Sammi Nails Spa, we offer a wide range of nail salon services to help you express yourself and enhance your style. From manicures and pedicures to unique nail art, our experienced technicians are dedicated to providing you with a personalized and exceptional salon experience.</p>
         </div>
-        <div className="services-list">
+        <div className="home-services-list">
             {servciesArray.map((service)=>(
                 <div className={service.className} key={service.title}>
                     <img src={service.img} alt={service.title} />
