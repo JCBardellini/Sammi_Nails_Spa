@@ -19,4 +19,5 @@
 
   .contact-container .google-map-container {
     grid-column: 1 / -1; 
+    width: 100%;
   }
