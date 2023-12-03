@@ -2,25 +2,27 @@
   line-height: 150%;
 }
 .services-section {
-  /* display: grid; */
+  display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   margin: auto;
   width: 100%;
+  max-width: 1200px;
 }
 
+
 .service-page-service-container{
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
-.mani-and-pedi{
-  justify-content: center;
+
+.mani-and-pedi {
+  justify-content: space-evenly; 
   display: flex;
-  gap: 100px;
+  gap: 20px; 
   flex-direction: row;
 }
-
 .heroImage {
   background-image: url(../../assets/Images/img35.png.png);
   background-position: center;
@@ -128,4 +130,13 @@
     gap: 0;
   }
 }
+
+
+
+
+
+
+
+
+
 
