@@ -1,13 +1,14 @@
 #aboutPage {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 600px 500px 500px 250px 400px 220px;
+   
     gap: 50px;
     margin-bottom: 40px;
     margin-top: 20px;
 }
 .aboutHero {
     width: 100%;
+    position: relative;
 }
 .aboutHeroImg {
     height: 600px;
@@ -22,3 +23,39 @@
     font-size: 45px;
     line-height: 150%;
 }
+
+  
+@media (max-width: 768px) {
+  .aboutHeroImg {
+      height: 400px; /* Smaller height for smaller screens */
+  }
+  .aboutHeroTitle {
+      font-size: 30px; /* Smaller font size for smaller screens */ 
+      top: 35%;
+      left: 25%;
+      line-height: 100%;
+      transform: translate(-50%, -50%); /* Center the title */
+  }
+} 
+  
+
+@media (max-width: 768px) {
+  .who-we-are, .our-process, .our-team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vertical-line {
+    display: none; /* Hide vertical lines on smaller screens */
+  }
+
+  .section {
+    padding: 10px; /* Less padding on smaller screens */
+  }
+
+  .aboutHeroTitle {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+}
+
+  

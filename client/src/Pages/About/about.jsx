@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./about.css";
 import AboutContent from "../../Components/About/aboutContent";
 import Process from "../../Components/Process/process";
@@ -11,11 +11,7 @@ const About = () => {
   return (
     <main id="aboutPage">
       <div className="aboutHero">
-        <img
-          src={AboutHero}
-          alt="White nails in front of green leaf"
-          className="aboutHeroImg"
-        />
+        <img src={AboutHero} alt="White nails in front of green leaf" className="aboutHeroImg" />
         <h2 className="aboutHeroTitle">Unleash your powers with your nails</h2>
       </div>
       <AboutContent />

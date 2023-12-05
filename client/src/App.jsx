@@ -5,8 +5,8 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/home";
 import Services from "./Pages/Services/services";
 import Gallery from "./Pages/Gallery/gallery";
-import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/contact";
+import About from "./Pages/About/about";
 
 function App() {
   return (
