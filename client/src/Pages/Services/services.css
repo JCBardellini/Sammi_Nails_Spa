@@ -12,6 +12,7 @@
 .service-page-service-container{
   width: 80%;
   margin: auto;
+  margin-top: 20px ;
 }
 
 .mani-and-pedi{
@@ -110,21 +111,21 @@
     flex-direction: column;
     gap: 0px;
   }
-  .service-page-hero-text{
-    top: 14%;
+  .services-section .service-page-hero-text{
+    top: 8%;
   }
 }
-.service-page-hero-text{
-  top: 14%;
-}
+
 @media (max-width: 767px) {
   .mani-and-pedi{
     flex-direction: column;
     align-items: center;
-
     gap: 50px;
   }
   .service-list{
     gap: 0;
+  }
+  .services-section .service-page-hero-text{
+    top: 15%;
   }
 }

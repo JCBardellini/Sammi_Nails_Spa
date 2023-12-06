@@ -1,7 +1,7 @@
 .contact-form {
   width: 100%;
   margin-top: 35px ;
-  padding: 20px;
+padding: 20px;
 }
 
 .contact-form .name-fields {
@@ -10,8 +10,10 @@
   gap: 30px;
 }
 
+.input-field{
+  width: 100%;
+}
 
-.contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 10px;
@@ -32,21 +34,25 @@
   border-radius: 15px;
 }
 @media (max-width: 760px) {
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .services-section {
     grid-template-columns: 1fr;
   }
   .contact-form .name-fields {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    
-    
   }
   .contact-form button {
     width: 80px; 
+    margin: auto;
   }
   #contact-page-contact-form{
-    max-width: 75%;
-    margin: auto;
+    max-width: 100%;
   }
   .google-map-container{
     max-width: 75%;    

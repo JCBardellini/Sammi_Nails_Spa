@@ -22,7 +22,6 @@ const ContactUs = () => {
               <div className="text">
                 <p>Email</p>
                 <p>Send us an email today!</p>
-                <p>samminails@example.com</p>
                 <p>Email: <a href="mailto:samminails@example.com">samminails@example.com</a></p>
               </div>
             </div>
@@ -32,7 +31,6 @@ const ContactUs = () => {
               <div className="text">
                 <p>Phone</p>
                 <p>Call us for an appointment.</p>
-                <p>(425) 379-6178</p>
                 <p>Phone: <a href="tel:425-379-6178">425-379-6178</a></p>
               </div>
             </div>

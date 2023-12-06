@@ -7,6 +7,7 @@
   justify-content: space-around;
   max-width: 1900px;
   margin: auto;
+  width: 100%;
 }
 
 .unique-nails-designs{
@@ -66,6 +67,10 @@ line-height: 150%; /* 30px */
 
 
     @media screen and (min-width:1100px) {
+      .after-hero-comp{
+        width: 1100px;
+        margin: auto;
+      }
     .unique-nails-designs h2{
       border: none;
       width: 610px;
@@ -94,10 +99,13 @@ line-height: 150%; /* 30px */
 
     @media screen and (min-width: 768px) and (max-width:1099px){
       .after-hero-comp{
-      margin: 0 40px;
-        
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+      width: 768px;
       }
     }
+
     @media all and (max-width:767px) {
       .after-hero-comp{
         flex-direction: column;

@@ -2,7 +2,6 @@
   .home-hero-image {
     grid-column: 1/span2;
     height: 100%;
-    min-width: 90%;
     width: 100%;
     margin: auto;
     max-width: 1900px;
@@ -69,6 +68,10 @@ line-height: 150%; /* 30px */
 
   @media screen and (min-width:1100px) {
 
+    .home-hero-image{
+      /* width: 1100px;
+      margin: auto; */
+    }
     .hero-text h2{
       color: var(--White, #FFF);
   text-align: center;
@@ -92,7 +95,18 @@ line-height: 150%; /* 30px */
   line-height: 150%; /* 30px */
     }
   }
-  @media all and (max-width:767px) {
+
+
+  @media screen and (min-width: 768px) and (max-width:1099px){
+    .home-hero-image{
+      width: 768px;
+      margin: auto;
+    }
+   
+  }
+
+
+  @media screen and (max-width:767px) {
     .hero-image{
       width: 100%;
 

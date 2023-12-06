@@ -68,9 +68,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 30px */
     }
-    .Pedicure-container img{
+    /* .Pedicure-container img{
       margin: auto;
-    }
+    } */
 
     .Manicure-container{
       justify-content: space-between;
@@ -105,9 +105,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 30px */
     }
-    .Manicure-container img{
+    /* .Manicure-container img{
       width: 48%;
-    }
+    } */
 
     .Waxing-container{
       justify-content: space-between;
@@ -142,9 +142,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 30px */
     }
-    .Waxing-container img{
+    /* .Waxing-container img{
       width: 48%;
-    }
+    } */
   }
 
   @media screen and (min-width: 768px) and (max-width:1099px){
@@ -280,7 +280,7 @@ line-height: 120%; /* 57.6px */
       }
       .service-image{
         margin: auto;
-        width: 50%;
+        width: 100%;
       }
     .Pedicure-content{
       gap: 30px;
