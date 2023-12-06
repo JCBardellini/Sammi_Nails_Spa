@@ -11,8 +11,8 @@ import AboutHero from "../../assets/Images/aboutHero.png";
 const About = () => {
   return (
     <main id="aboutPage">
-      <div className="aboutHero">
-        <img src={AboutHero} alt="White nails in front of green leaf" className="aboutHeroImg" />
+      <div className="aboutHeroImg">
+      
         <h2 className="aboutHeroTitle">Unleash your powers with your nails</h2>
       </div>
       <AboutContent />
