@@ -2,10 +2,11 @@
 import "./about.css";
 import AboutContent from "../../Components/About/aboutContent";
 import Process from "../../Components/Process/process";
-import CtaOne from "../../Components/CTAone/ctaOne";
+import CallToAction from '../../Components/CallToAction/CallToAction';
 import Employee from "../../Components/Employee/employee";
 import ContactInfo from "../../Components/ContactInfo/contactInfo";
 import AboutHero from "../../assets/Images/aboutHero.png";
+
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
       </div>
       <AboutContent />
       <Process />
-      <CtaOne />
+      <CallToAction />
       <Employee />
       <ContactInfo />
     </main>
