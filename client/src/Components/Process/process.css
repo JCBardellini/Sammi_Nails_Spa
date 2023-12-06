@@ -1,8 +1,6 @@
-
-
 .processTitle {
   text-align: center;
-  margin-bottom: 20px; 
+  margin-bottom: 30px;
 }
 
 .processContainer {
@@ -13,63 +11,67 @@
   flex-direction: row; /* Puts elements side by side on larger screens */
   justify-content: center;
   align-items: start;
-  
 }
 .processContactUsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px; 
+  gap: 50px;
   margin: 20px;
 }
 .processContactUsContainer h3 {
+  margin-top: 150px;
   font-size: x-large;
-  
 }
 .contactUs {
-
-width: 140px;
+  width: 140px;
 }
+
 .icons {
   width: 40px;
 }
+
 .stepsAndIconContainer {
   display: flex;
   justify-content: center;
   align-items: start;
-  gap: 20px; /* Space between icons and steps */
+  gap: 25px; /* Space between icons and steps */
 }
+
+.stepsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .processIconContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px; /* Space between each icon and line */
+  gap: 35px; /* Space between each icon and line */
 }
+
 .line {
   width: 2px;
   height: 50px; /* Adjust the height to match the gap between steps */
   background-color: #000;
 }
 
-
-
 @media (max-width: 768px) {
-  .processContainer { 
+  .processContainer {
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: start;
   }
 
   .processContactUsContainer {
-    align-items: center; 
-    max-width: 400px; 
+    align-items: center;
+    max-width: 400px;
   }
-
 
   .line {
     width: 2px;
     height: 50px; /* Adjust the height to match the gap between steps */
     background-color: #000;
   }
-  
 }
