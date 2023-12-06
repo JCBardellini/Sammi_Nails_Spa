@@ -124,13 +124,25 @@ line-height: 150%; /* 30px */
 
   @media screen and (min-width: 768px) and (max-width:1099px){
     .home-services-section{
-    margin: 0 40px;
-      
+    margin: auto;
+    width: 768px;
+    }
+    .home-services-title{
+      width: 100%;
+    }
+    .home-services-list{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .home-services-list div{
+      justify-content: normal;
+    }
+    .home-services-title p{
+      width: auto;
     }
   }
   @media screen and (max-width:767px) {
     .home-services-section{
-      grid-template-rows:0.6fr 0.1fr 0.5fr 0.1fr 1fr 0.2fr 0.1fr;
       width: 311px;
       margin: auto;
     }
@@ -216,6 +228,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
+    }
+    .home-services-section button {
+      width: 50%;
+      padding: 4px 8px;
     }
   }
 

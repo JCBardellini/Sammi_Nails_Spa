@@ -92,6 +92,7 @@ a{
 @media screen and (min-width:1100px){
   #homepage{
    grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr;
+
   }
 
   .homepage-quote{
@@ -128,10 +129,6 @@ line-height: 120%; /* 57.6px */
   width: 50%;
 }
 
-.home-contact-details{
-
-}
-
 .home-contact-info{
   display: flex;
   flex-direction: column;
@@ -145,10 +142,18 @@ padding-left: 0;
 
 @media screen and (min-width: 768px) and (max-width:1099px){
   #homepage{
-  margin: 0;
-    grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr;
+    grid-template-rows: 500px 847px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr;
   }
- 
+ .home-contact-area{
+  flex-direction: row;
+ }
+ .operation-hours{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+ }
 }
 
 @media screen and (max-width:767px) {
@@ -226,12 +231,16 @@ border: none;
     max-width: 400px;
 }
 
-
-.home-contact-details .detail, .home-contact-info {
-  
-    flex-basis: 90%;
-    max-width: 90%;
-    justify-self: center;
+.operation-hours{
+  display: flex;
+}
+.home-contact-details{
+  display: flex;
+}
+.home-contact-details .detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-contact-info{

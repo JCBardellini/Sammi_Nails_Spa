@@ -156,11 +156,7 @@
         width: 100%;
         /* margin: auto; */
         background-color: white;
-    }
-
-    nav ul li a {
-        margin: 0.2rem 0.5rem;
-    }
+    
   
     .navbar-contact-us button {
         display: none;

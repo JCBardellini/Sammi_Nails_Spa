@@ -31,6 +31,18 @@ const Navbar = () => {
   const handleClick = () => {
     navigate("/contact");
   };
+
+
+  const menuClick = () => {
+    setMenuOpen(!menuOpen);
+  
+    // Delay the execution of menuClick by a couple of seconds (e.g., 2000 milliseconds)
+    setTimeout(() => {
+      console.log('closingnnnn');
+      setMenuOpen(false);
+    }, 3000); // Adjust the delay time as needed
+  };
+  
   return (
     // y
 
@@ -43,7 +55,7 @@ const Navbar = () => {
    
         {/* Mobile menu icon */}
         
-        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="menu" onClick={menuClick}>
           <span></span>
           <span></span>
           <span></span>

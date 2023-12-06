@@ -1,6 +1,7 @@
 .cta{
     grid-row: 7;
     width: 100%;
+    max-width: 1900px;
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../../assets/CoverImages/pexels-rheza-aulia-3375210.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +15,6 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin: 40px 0;  
   }
   
 .cta h2{

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./contactForm.css";
+import { TextField } from "@mui/material";
 
 export const ContactForm = () => {
   const [contactFormData, setContactFormData] = useState({
@@ -57,31 +58,34 @@ export const ContactForm = () => {
       <form className="contact-form">
         <div className="name-fields">
           {/* Name Inputs */}
-          <input
+          <TextField
+          variant="outlined"
             className="input-field"
             value={contactFormData.firstName}
             name="firstName"
             onChange={handleChange}
             type="text"
-            placeholder="First Name"
+            label="First Name"
           />
-          <input
+          <TextField
+          variant="outlined"
             className="input-field"
             value={contactFormData.lastName}
             name="lastName"
             onChange={handleChange}
             type="text"
-            placeholder="Last Name"
+            label="Last Name"
           />
         </div>
         {/* Email */}
-        <input
+        <TextField
+        variant="outlined"
           className="input-field"
           value={contactFormData.email}
           name="email"
           onChange={handleChange}
           type="email"
-          placeholder="Email"
+          label="Email"
         />
         {/* Message */}
         <textarea
