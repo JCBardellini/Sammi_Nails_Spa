@@ -12,7 +12,11 @@
 .aboutHeroImg {
     height: 600px;
     width: 100%;
-    object-fit: cover;
+    background-image: url(../../assets/Images/aboutHero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .aboutHeroTitle {
     position: absolute;
@@ -22,3 +26,11 @@
     font-size: 45px;
     line-height: 150%;
 }
+
+
+@media screen and (max-width:1100px) {
+    .aboutHeroTitle{
+        top: 17%;
+        left: 17%;
+    }
+  }

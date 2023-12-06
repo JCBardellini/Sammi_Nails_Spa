@@ -11,9 +11,7 @@ const About = () => {
   return (
     <main id="aboutPage">
       <div className="aboutHero">
-        <img
-          src={AboutHero}
-          alt="White nails in front of green leaf"
+        <div
           className="aboutHeroImg"
         />
         <h2 className="aboutHeroTitle">Unleash your powers with your nails</h2>
