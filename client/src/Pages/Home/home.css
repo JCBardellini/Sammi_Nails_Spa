@@ -11,7 +11,7 @@ a{
   margin: 0;
   width: 100%;
   display: grid;
-  grid-template-rows: 0.7675fr 0.3fr 0.6fr 0.3fr 1.375fr 0.5225fr 0.5338fr 0.5fr;
+  /* grid-template-rows: 0.7675fr 0.3fr 0.6fr 0.3fr 1.375fr 0.5225fr 0.5338fr 0.5fr; */
   gap: 50px;
   margin-top: 10px;
 }
@@ -128,9 +128,7 @@ line-height: 120%; /* 57.6px */
   width: 50%;
 }
 
-.home-contact-details{
 
-}
 
 .home-contact-info{
   display: flex;

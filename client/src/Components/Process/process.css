@@ -1,62 +1,75 @@
-#processContainer {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+
+
 .processTitle {
-    text-align: center;
-    font-size: 30px;
-    line-height: 150%;
+  text-align: center;
+  margin-bottom: 20px; 
 }
-.line {
-    height: 60px;
-    width: 2px;
-    background-color: black;
-}
-.icons {
-    width: 48px;
-}
-.processIconContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 48px;
-    gap: 5px;
-    align-items: center;
-}
-.stepsAndIconContainer {
-    display: flex;
-}
+
 .processContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    gap: 100px;
-    margin-top: 20px;
-    height: 420px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15fr 13fr;
+  gap: 50px;
+  flex-direction: row; /* Puts elements side by side on larger screens */
+  justify-content: center;
+  align-items: start;
+  
 }
-.stepsContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 30px;
+.processContactUsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+  margin: 20px;
 }
 .processContactUsContainer h3 {
-text-align: center;
-font-size: 26px;
-margin-bottom: 30px;
-font-weight: 400;
-line-height: 150%;
+  font-size: x-large;
+  
 }
-.processContactUsContainer .contactUs {
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.contactUs {
+
+width: 140px;
 }
-.stepsTitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
+.icons {
+  width: 40px;
+}
+.stepsAndIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px; /* Space between icons and steps */
+}
+.processIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between each icon and line */
+}
+.line {
+  width: 2px;
+  height: 50px; /* Adjust the height to match the gap between steps */
+  background-color: #000;
+}
+
+
+
+@media (max-width: 768px) {
+  .processContainer { 
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .processContactUsContainer {
+    align-items: center; 
+    max-width: 400px; 
+  }
+
+
+  .line {
+    width: 2px;
+    height: 50px; /* Adjust the height to match the gap between steps */
+    background-color: #000;
+  }
+  
 }

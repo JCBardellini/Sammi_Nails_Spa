@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./employee.css";
 import hani from "../../assets/Images/hani.jpeg";
 import rose from "../../assets/Images/rose.jpeg";

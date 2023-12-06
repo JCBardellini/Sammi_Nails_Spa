@@ -1,5 +1,5 @@
 // ManicureServices.jsx
-import React from 'react';
+
 import './ManicureServices.css';
 
 const manicureServicesData = [
