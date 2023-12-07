@@ -1,7 +1,6 @@
 #aboutPage {
     display: grid;
     grid-template-columns: 1fr;
-   
     gap: 50px;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -11,7 +10,7 @@
     position: relative;
 }
 .aboutHeroImg {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url(../../assets/Images/aboutHero.png);
     background-position: center;

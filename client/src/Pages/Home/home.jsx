@@ -4,9 +4,9 @@ import HomeHeroImage from '../../Components/HomeHeroImage/HomeHeroImage';
 import HomeUniqueNailsDesigns from '../../Components/HomeUniqueNailsDesigns/HomeUniqueNailsDesgins';
 import HomeMainServices from '../../Components/HomeMainServices/HomeMainServices';
 import HomeTestimonials from '../../Components/HomeTestimonials/HomeTestimonials';
-import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from "@mui/icons-material/Phone";
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
-
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { Link } from 'react-router-dom';
 import HomeServicesSection from '../../Components/HomeServicesSection/HomeServicesSection';
 import CallToAction from '../../Components/CallToAction/CallToAction';
@@ -59,21 +59,19 @@ const Home = () => {
 
           <div className="home-contact-details">
             <div className="detail">
-              <span className="icon icon-email"> <EmailIcon /> </span>
+              <span className="icon icon-email"> <MailOutlineIcon /> </span>
               <div className="text">
                 <p>Email</p>
                 <p>Send us an email today!</p>
-                <p>samminails@example.com</p>
-                <p>Email: <a href="mailto:samminails@example.com">samminails@example.com</a></p>
+                <p>Email: <a href="mailto:samminails.wa@gmail.com">samminails.wa@gmail.com</a></p>
               </div>
             </div>
             <div className="detail">
 
-              <span className="icon icon-phone"> <PhoneInTalkIcon /> </span>
+              <span className="icon icon-phone"> <PhoneIcon/> </span>
               <div className="text">
                 <p>Phone</p>
                 <p>Call us for an appointment.</p>
-                <p>(425) 379-6178</p>
                 <p>Phone: <a href="tel:425-379-6178">425-379-6178</a></p>
               </div>
             </div>

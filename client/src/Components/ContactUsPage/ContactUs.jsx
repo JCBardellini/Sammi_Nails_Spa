@@ -22,7 +22,7 @@ const ContactUs = () => {
               <div className="text">
                 <p>Email</p>
                 <p>Send us an email today!</p>
-                <p>Email: <a href="mailto:samminails@example.com">samminails@example.com</a></p>
+                <p>Email: <a href="mailto:samminails.wa@gmail.com">samminails.wa@gmail.com</a></p>
               </div>
             </div>
             <div className="detail">

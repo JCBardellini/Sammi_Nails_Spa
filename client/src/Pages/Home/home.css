@@ -16,7 +16,10 @@ a{
   margin-top: 10px;
 }
 
-
+.home-contact-details{
+  display: flex;
+  justify-content: space-between;
+}
 
   /* Quote code */
   .homepage-quote{
@@ -75,7 +78,7 @@ a{
   }
 
   .home-contact-info{
-    width:49%;
+    width: 85%;
     text-align: left;
   }
 

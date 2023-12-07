@@ -37,7 +37,7 @@
 .service-page-hero-text {
   text-align: center;
   position: absolute;
-  top: 7%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -111,7 +111,7 @@
     flex-direction: column;
     gap: 0px;
   }
-  .services-section .service-page-hero-text{
+  .services-section {
     top: 8%;
   }
 }
