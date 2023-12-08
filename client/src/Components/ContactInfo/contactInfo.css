@@ -3,16 +3,15 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    gap: 20px;
+    gap: 50px;
     margin-top: 20px;
 }
 
 .contactContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 400px;
-    height: 200px;
+    justify-content: space-between;
+    height: 225px;
 }
  @media  screen and (max-width:767px) {
     .contact-info p{

@@ -1,37 +1,39 @@
-.contact-form {
+#contact-form {
   width: 100%;
-  margin-top: 35px ;
-padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-around;
+  padding-left: 40px;
 }
 
-.contact-form .name-fields {
+#contact-form .name-fields {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
 }
 
 .input-field{
   width: 100%;
 }
 
-.contact-form textarea {
+#contact-form textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
   border: 1px solid #ccc;
 }
 
-.contact-form textarea {
+#contact-form textarea {
   height: 225px;
 }
 
-.contact-form button {
-  width: 160px;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  cursor: pointer;
-  border-radius: 15px;
+#contact-form button {
+    width: 152px;
+    padding: 8px 12px;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
 }
 @media (max-width: 760px) {
   .contact-form{

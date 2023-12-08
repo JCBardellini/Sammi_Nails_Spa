@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "./contactForm.css";
 import { TextField } from "@mui/material";
+import emailjs from "emailjs-com";
 
-export const ContactForm = () => {
+const ContactForm = () => {
   const [contactFormData, setContactFormData] = useState({
     firstName: "",
     lastName: "",
@@ -12,9 +13,11 @@ export const ContactForm = () => {
 
   const templateParams = {
     to_name: "Sammi Nails",
-    from_name: contactFormData.name,
+    from_name: contactFormData.firstName + " " + contactFormData.lastName,
     message: contactFormData.message,
     from_email: contactFormData.email,
+    // email of the company to send them emails
+    to_email: "samminails.wa@gmail.com",
   };
 
   const sendEmail = (e) => {
@@ -52,53 +55,55 @@ export const ContactForm = () => {
     }));
   };
 
-  
   return (
-    <div id="contact-page-contact-form">
-      <form className="contact-form">
-        <div className="name-fields">
-          {/* Name Inputs */}
-          <TextField
-          variant="outlined"
-            className="input-field"
-            value={contactFormData.firstName}
-            name="firstName"
-            onChange={handleChange}
-            type="text"
-            label="First Name"
-          />
-          <TextField
-          variant="outlined"
-            className="input-field"
-            value={contactFormData.lastName}
-            name="lastName"
-            onChange={handleChange}
-            type="text"
-            label="Last Name"
-          />
-        </div>
-        {/* Email */}
+    <form id="contact-form">
+      <div className="name-fields">
+        {/* Name Inputs */}
         <TextField
-        variant="outlined"
+          variant="outlined"
           className="input-field"
-          value={contactFormData.email}
-          name="email"
+          value={contactFormData.firstName}
+          name="firstName"
           onChange={handleChange}
-          type="email"
-          label="Email"
+          type="text"
+          label="First Name"
+          size="small"
         />
-        {/* Message */}
-        <textarea
-          className="textarea-field"
-          value={contactFormData.message}
-          name="message"
+        <TextField
+          variant="outlined"
+          className="input-field"
+          value={contactFormData.lastName}
+          name="lastName"
           onChange={handleChange}
-          placeholder="Message"
-        ></textarea>
-        <button onClick={(e) => sendEmail(e)} type="submit">
-          Send
-        </button>
-      </form>
-    </div>
+          type="text"
+          label="Last Name"
+          size="small"
+        />
+      </div>
+      {/* Email */}
+      <TextField
+        variant="outlined"
+        className="input-field"
+        value={contactFormData.email}
+        name="email"
+        onChange={handleChange}
+        type="email"
+        label="Email"
+        size="small"
+      />
+      {/* Message */}
+      <textarea
+        className="textarea-field"
+        value={contactFormData.message}
+        name="message"
+        onChange={handleChange}
+        placeholder="Message"
+      ></textarea>
+      <button onClick={(e) => sendEmail(e)} type="submit">
+        Send
+      </button>
+    </form>
   );
 };
+
+export default ContactForm;

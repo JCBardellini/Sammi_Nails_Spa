@@ -31,7 +31,6 @@ import elegantScript from "../../Assets/Images/img29.png";
 import pedicurePalette from "../../Assets/Images/img30.png";
 import submergedSerenity from "../../Assets/Images/img31.png";
 import classicTimekeeper from "../../Assets/Images/img32.png";
-import CtaOne from "../../Components/CTAone/ctaOne";
 import CallToAction from "../../Components/CallToAction/CallToAction";
 
 const imageObjects = [
@@ -213,7 +212,6 @@ const Gallery = () => {
       {/* Call to action */}
       <CallToAction />
       {/* Call to action */}
-
     </section>
   );
 };

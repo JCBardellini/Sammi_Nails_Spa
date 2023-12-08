@@ -1,23 +1,33 @@
-.contact-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    gap: 20px;
-    margin:20px;
-    margin: auto;
-  }
-  
-  
-  @media (max-width: 767px) {
-    .contact-container{
-      grid-template-columns: 1fr;
-      justify-content: center; 
-      max-width: 400px;
-    }
-    
-  }
+#contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 50px;
+  gap: 20px;
+}
+#contactUs-container {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#contact-form {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#google-map-container {
+  grid-column: span 2;
+  grid-row: 2/3;
+}
 
-  .contact-container .google-map-container {
-    grid-column: 1 / -1; 
+
+
+
+@media (max-width: 767px) {
+  #contact-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
   }
+}
