@@ -1,40 +1,32 @@
-.manicure-services-section {
-  
-  text-align: center; 
-}
-
-.maniServices-and-prices{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 25px;
-}
-
-
-.service-category {
-  margin-bottom: 20px;
-}
-
-.services-list {
-  list-style: none;
-  padding: 0;
-}
-
-
-.services-description{
-  margin: 25px auto 0 auto;
-  margin-bottom: 26px;
-  width: 100%;
-  color: #000;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 150%; /* 24px */
-  text-align: left;
-}
-
-.service-details{
+#manicure{ 
   display: flex;
   flex-direction: column;
-  align-items: end;
+  gap: 20px;
+  width: 45%;
+}
+.mani-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 150%;
+  border-bottom: 1px solid black;
+}
+.mani-description {
+  line-height: 150%;
+  height: 162px;
+}
+.category-title {
+  text-align: left;
+  font-size: 28px;
+  line-height: 150%;
+}
+.mani-service {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+}
+.service-details {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }

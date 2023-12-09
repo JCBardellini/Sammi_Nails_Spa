@@ -1,39 +1,34 @@
-import './Services.css';
-import PopularOptions from '../../components/ServicesSection/PopularOptions/PopularOptions';
-import ManicureServices from '../../components/ServicesSection/ManicureServices/ManicureServices';
-import PedicureServices from '../../components/ServicesSection/PedicureServices/PedicureServices';
-import WaxingServices from '../../components/ServicesSection/WaxingServices/WaxingServices';
-import KidsServices from '../../components/ServicesSection/KidsServices/KidsServices';
-
-
-
-
+import "./Services.css";
+import ServicesHeroImage from "../../assets/Images/img35.png.png";
+import PopularOptions from "../../components/ServicesSection/PopularOptions/PopularOptions";
+import ManicureServices from "../../components/ServicesSection/ManicureServices/ManicureServices";
+import PedicureServices from "../../components/ServicesSection/PedicureServices/PedicureServices";
+import WaxingServices from "../../components/ServicesSection/WaxingServices/WaxingServices";
+import KidsServices from "../../components/ServicesSection/KidsServices/KidsServices";
 
 const Services = () => {
   return (
-    <>
-      <div className="services-section">
-        <div className='heroImage' />
-        <div className="service-page-hero-text">
-          <h4>Polish to perfection, from tips to toes</h4>
-        </div>
-        <div className='service-page-service-container'>
-          <PopularOptions />
+    <main id="services-section">
+      {/* Hero Img */}
+      <section className="heroImage">
+        <img src={ServicesHeroImage} alt="Hand in front of an cabin" />
+      </section>
 
-          <div className='mani-and-pedi margin'>
-            <ManicureServices />
-            <PedicureServices />
-          </div>
-          <div className="kids-and-waxing-section margin">
-            <KidsServices />
-            <WaxingServices />
-          </div>
-        </div>
+      {/* Popular options  */}
+      <h2 className="options-title">Popular Options</h2>
+      <PopularOptions />
 
+      {/* manicure and pedicure  */}
+      <section className="mani-pedi">
+        <ManicureServices />
+        <PedicureServices />
+      </section>
+
+      <div className="kids-and-waxing-section margin">
+        <KidsServices />
+        <WaxingServices />
       </div>
-
-    </>
-
+    </main>
   );
 };
 

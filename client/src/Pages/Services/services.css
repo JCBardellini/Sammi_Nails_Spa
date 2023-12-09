@@ -1,108 +1,55 @@
-*{
-  line-height: 150%;
-}
-.services-section {
-  /* display: grid; */
-  grid-template-columns: 1fr;
+#services-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr ;
   gap: 20px;
-  margin: auto;
-  width: 100%;
 }
-
-.service-page-service-container{
-  width: 80%;
-  margin: auto;
-  margin-top: 20px ;
+#popular-options {
+  grid-column: span 2;
 }
-
-.mani-and-pedi{
-  justify-content: center;
-  display: flex;
-  gap: 100px;
-  flex-direction: row;
-}
-
 .heroImage {
-  background-image: url(../../assets/Images/img35.png.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
   width: 100%;
-  height: 210px;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 5px;
-}
-.service-page-hero-text {
-  text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.call-to-action-item {
-  display: grid;
-  grid-template-columns: 1fr;
-
-  height: 300px;
-  background-color: rgb(146, 142, 136);
-}
-
-.heroImage2 {
-  width: 64%;
-  height: 225px;
-}
-
-
-.white-box{
-  z-index: 2;
-  position: absolute;
-  max-width: 54%;
-  width: 54%;
-  height: 180px;
-  transform: translate(61%,13%);
-  margin: auto;
-  background-color: white;
-
+  height: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
-}
-
-
-.white-box p{
-  z-index: 2;
-  position: absolute;
-  max-width: 54%;
-  width: 54%;
-  height: 180px;
-  transform: translate(40%,10%);
-  margin: auto;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.inside-call-to-action{
-  display: flex;
-    justify-content: left;
-    width: 50%;
-    position: relative;
-    margin: auto;
-}
-
-.popular{
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 311px;
+  grid-column: span 2;
+  margin-top: 20px;
 }
+
+.heroImage img {
+  width: 100%;
+}
+
+.options-title {
+  grid-column: span 2;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 48px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.options-title::after {
+  content: "";
+  display: block;
+  width: 80%; /* Set the desired percentage width */
+  border-bottom: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 10%; /* Adjust the left position to center the border */
+}
+
+.mani-pedi {
+  grid-column: span 2;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+
 
 
 

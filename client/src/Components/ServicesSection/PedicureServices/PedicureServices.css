@@ -1,15 +1,29 @@
-.pedicure-services-section {
-
-  text-align: center; 
-  
+#pedicure {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
 }
 
-.PediServices-and-prices{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 25px;
+.pedi-title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 150%;
+    border-bottom: 1px solid black;
 }
-
+.pedi-description {
+  line-height: 150%;
+  height: 162px;
+}
+.pedi-service {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+}
+.category-description {
+  margin-top: 10px;
+}
 .service-category {
   margin-bottom: 20px;
 }
