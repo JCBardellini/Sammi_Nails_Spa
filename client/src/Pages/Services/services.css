@@ -9,6 +9,7 @@
   grid-column: span 2;
 }
 .heroImage {
+  position: relative;
   width: 100%;
   height: auto;
   display: flex;
@@ -20,6 +21,13 @@
 
 .heroImage img {
   width: calc(100% + 100px);
+}
+
+.heroImage h2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
 .options-title {

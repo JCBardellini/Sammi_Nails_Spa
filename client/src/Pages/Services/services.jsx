@@ -12,6 +12,7 @@ const Services = () => {
       {/* Hero Img */}
       <section className="heroImage">
         <img src={ServicesHeroImage} alt="Hand in front of an cabin" />
+        <h2>Polish to perfection, from tips to toes</h2>
       </section>
 
       {/* Popular options  */}
