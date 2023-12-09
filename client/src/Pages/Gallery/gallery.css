@@ -1,91 +1,32 @@
 #gallery-container {
-   text-align: center;
    display: flex;
    flex-direction: column;
-   gap: 30px;
+   gap: 20px;
 }
-#gallery-container h2{
-    border: none;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.gallery-header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    height: 80px;
-}
-
-.logo-image {
-    height: 110px;
-    width: 110px;
-    display: flex;
+.gallery-title {
+    text-align: center;
+    line-height: 150%;
+    margin-top: 10px;
+    font-size: 48px;
 }
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    /* Adjust size as needed */
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
 }
-
-@media only screen and (max-width: 768px) {
-    .image-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-}
-
-.image-item {
-    background-color: #eee;
-    height: 300px;
-
-}
-
-
-.call-to-action {
-    margin: 20px 0;
-}
-
-.call-to-action p {
-    margin-bottom: 10px;
-}
-
-.call-to-action button {
-    margin-right: 10px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
 
 .image-item {
     position: relative;
+    height: 300px;
+    max-height: 400px;
+    /* Set a specific height or use a percentage */
 }
 
 .image-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
-    /* To ensure there's no extra space under the image */
-}
-@media screen and (min-width:431px) and (max-width:1023px){
-    .image-item{
-        width:auto;
-        height: 200px;
-    }
-}
-
-@media screen and (max-width:430px) {
-    .image-item{
-        width: 159px;
-        background-color: #eee;
-        height: 150px;
-        margin: auto;
-     
-    }
+    /* Ensure the image covers the entire container */
 }
 

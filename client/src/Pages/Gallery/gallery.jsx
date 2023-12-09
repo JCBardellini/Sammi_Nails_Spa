@@ -198,21 +198,21 @@ const imageObjects = [
 
 const Gallery = () => {
   return (
-    <section id="gallery-container">
-      <h2>Gallery</h2>
+    <main id="gallery-container">
+      <h2 className="gallery-title">Gallery</h2>
       {/* ADD HEART FUNCTION */}
-      <div className="image-grid">
+      <section className="image-grid">
         {imageObjects.map((image, index) => (
           <div key={index} className="image-item">
             <img src={image.src} alt={image.alt} />
           </div>
         ))}
-      </div>
+      </section>
 
       {/* Call to action */}
       <CallToAction />
       {/* Call to action */}
-    </section>
+    </main>
   );
 };
 
