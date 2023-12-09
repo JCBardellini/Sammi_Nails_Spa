@@ -1,48 +1,20 @@
 .cta{
-    grid-row: 7;
-    width: 100%;
-    max-width: 1900px;
+    width: calc(100% + 100px);
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../../assets/CoverImages/pexels-rheza-aulia-3375210.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
+    margin-left: -50px;
+    height: 30%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 10px;
+    gap: 20px;
+    padding: 50px 0;
     align-items: center;
     justify-content: center;
-    margin: auto;
   }
   
-.cta h2{
-  color: var(--White, #FFF);
-  text-align: center;
-  padding: 0;
-  /* Heading/H2 */
-  font-family: Roboto;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 57.6px */
-  width: 90%;
-  border: none;
-}
-
-.cta p{
-  color: var(--White, #FFF);
-text-align: center;
-
-/* Text/Medium/Normal */
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 27px */
-}
-
 
 .cta button{
   background-color: #f0ece2;
@@ -54,6 +26,7 @@ line-height: 150%; /* 27px */
 
 .cta-button-container{
   display: flex;
+  gap: 20px;
 }
 
 .cta-button-container .book-btn{
