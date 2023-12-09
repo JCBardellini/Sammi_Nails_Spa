@@ -1,45 +1,26 @@
-.kids-services-container {
-  padding: 20px;
+.kids-title {
   text-align: center;
-
+  font-size: 48px;
+  line-height: 150%;
+  border-bottom: 1px solid black;
+  width: 45%;
 }
 
-.popular-kids{
-width: 50%;
-margin: auto;
-}
-
-.kids-and-Image {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  margin-top: 10px;
-}
-
-.kids-services-list {
-  list-style: none;
-  padding: 0;
-}
-
-.kids-service-item {
+.services-container {
   display: flex;
+  width: 100%;
   justify-content: space-between;
-  margin: 10px 20px 5px 5px;
+  margin-top: 20px;
 }
 
-
-.kidsImage {
-  max-width: 100%;
-  height: auto;
+.kids-image {
+  width: 45%;
   border-radius: 8px;
 }
-
-.waxing{
-  margin-bottom: 20px;
-}
-
-@media (max-width: 760px) {
-  .kids-and-Image {
-    grid-template-columns: 1fr;
-  }
+.kid-service {
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+    width: 45%;
 }

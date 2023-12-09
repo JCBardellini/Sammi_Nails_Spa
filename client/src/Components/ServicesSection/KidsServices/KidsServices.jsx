@@ -1,6 +1,5 @@
-
-import './KidsServices.css';
-import kids from '../../../Assets/Images/img21.png'
+import "./KidsServices.css";
+import kids from "../../../Assets/Images/img21.png";
 
 const KidsServices = () => {
   const kidsServices = [
@@ -9,28 +8,24 @@ const KidsServices = () => {
     { name: "Classic Pedicure", price: "$25" },
     { name: "Classic Pedicure with Gel Polish", price: "$35" },
     { name: "Color Change Nails/Toes", price: "$15" },
-    { name: "Gel Polish Color Change Nails/Toes", price: "$30" }
+    { name: "Gel Polish Color Change Nails/Toes", price: "$30" },
   ];
 
   return (
-    <section className="kids-services-container">
-      <div className="popular-kids">
+    <section id="kids-services">
+      <h2 className="kids-title">Kids Services</h2>
 
-      <h2>Kids Services</h2>
-      </div>
-
-      <div className='kids-and-Image'>
-        <ul className="most-requested">
+      <div className="services-container">
+        <ul className="kid-service">
           {kidsServices.map((service, index) => (
-            <li key={index} className="kids-service-item">
-              <p>{service.name}</p>
+            <li key={index} className="service-item">
+              <p className="category">{service.name}</p>
               <span className="service-price">{service.price}</span>
             </li>
           ))}
         </ul>
-        <img src={kids} alt="kidsImage" className='kidsImage' />
+        <img src={kids} alt="kidsImage" className="kids-image" />
       </div>
-
     </section>
   );
 };

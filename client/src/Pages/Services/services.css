@@ -3,6 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr ;
   gap: 20px;
+  margin-bottom: 25px;
 }
 #popular-options {
   grid-column: span 2;
@@ -18,7 +19,7 @@
 }
 
 .heroImage img {
-  width: 100%;
+  width: calc(100% + 100px);
 }
 
 .options-title {
@@ -48,7 +49,17 @@
   justify-content: space-between;
   /* background-color: aqua; */
 }
+#kids-services {
+  grid-column: span 2;
+  width: 80%;
+  margin: 10px auto;
+}
 
+#waxing-services {
+  grid-column: span 2;
+  width: 80%;
+  margin: 10px auto;
+}
 
 
 

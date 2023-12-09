@@ -24,10 +24,11 @@ const Services = () => {
         <PedicureServices />
       </section>
 
-      <div className="kids-and-waxing-section margin">
-        <KidsServices />
-        <WaxingServices />
-      </div>
+      {/* Kids Services */}
+      <KidsServices />
+
+      {/* Waxing Services */}
+      <WaxingServices />
     </main>
   );
 };
