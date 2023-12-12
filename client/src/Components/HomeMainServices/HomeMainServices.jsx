@@ -25,7 +25,10 @@ const HomeMainServices = () => {
          {arrayOfServices.map((service)=>(
             <div className='service-div' key={service.title}>
                     <div className={`service-container ${service.title}-container`}>
-                    <img src={service.img} className="service-image" alt={service.title}/>              
+                      <div className="service-image">
+                        <img src={service.img} alt={service.title}/>
+                             </div>
+                             
                         <div className={`${service.title}-content`}>
                             <h2>{service.title}</h2>
                             <p>{service.description}</p>

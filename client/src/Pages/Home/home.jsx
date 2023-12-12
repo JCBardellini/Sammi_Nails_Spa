@@ -44,7 +44,7 @@ const Home = () => {
         <HomeTestimonials />
         <CallToAction />
 
-        <section className="home-contact-area">
+        {/* <section className="home-contact-area">
           <div className="home-contact-info">
             <div className="home-contactUs-container">
               <div className="home-contactUs-content">
@@ -131,7 +131,7 @@ const Home = () => {
               <a href="https://www.maps.ie/population/"></a>
             </iframe>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );

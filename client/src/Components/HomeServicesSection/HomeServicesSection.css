@@ -99,7 +99,6 @@ line-height: 150%; /* 30px */
     width: 290px;
     flex-shrink: 0;
     justify-content: space-around;
-    height: 100%;
     gap: 30px;
     align-items: center;
     }
@@ -109,13 +108,7 @@ line-height: 150%; /* 30px */
     margin-bottom: 0;
   }
 
-  .left{
-    align-self: center;
-  }
 
-  .right{
-    align-self: center;
-  }
 
 
   @media screen and (min-width:1100px) {
@@ -130,11 +123,10 @@ line-height: 150%; /* 30px */
       width: 100%;
     }
     .home-services-list{
-      flex-direction: column;
-      gap: 20px;
+      gap: 0px;
     }
     .home-services-list div{
-      justify-content: normal;
+      width: 200px;
     }
     .home-services-title p{
       width: auto;
@@ -142,10 +134,13 @@ line-height: 150%; /* 30px */
   }
   @media screen and (max-width:767px) {
     .home-services-section{
-      width: 311px;
+      width: 100%;
       margin: auto;
     }
 
+    .home-services-title{
+      margin-bottom: 30px;
+    }
     .homes-services-title h2{
       color: var(--Black, #000);
 text-align: center;
@@ -172,11 +167,30 @@ line-height: 150%; /* 24px */
 text-align: left;
     }
     .home-services-list{
+      align-items: center;
       flex-direction: column;
+      width: 90%;
+    }
+
+    .home-services-list .left div{
+      position: relative;
+      width: 100%;
+      padding-top: 80%; /* This maintains the aspect ratio */
+      overflow: hidden;
+    }
+    .home-services-list .right div{
+      position: relative;
+      width: 100%;
+      padding-top: 80%; /* This maintains the aspect ratio */
+      overflow: hidden;
     }
     .home-services-list div img{
-      width: 311px;
-      height: 350px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
     .home-services-list div{
       width:311px;
@@ -204,7 +218,6 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
-text-align: left;
     }  
     .home-services-title h2{
       color: black;
@@ -218,7 +231,7 @@ text-align: left;
       width: 311px;
     }
     .home-services-title p{
-      width: 311px;
+      width: 100%;
       color: var(--Black, #000);
 
 /* Text/Regular/Normal */
@@ -229,7 +242,7 @@ font-weight: 400;
 line-height: 150%; /* 24px */
     }
     .home-services-section button {
-      width: 50%;
+      width: 90%;
       padding: 4px 8px;
     }
   }

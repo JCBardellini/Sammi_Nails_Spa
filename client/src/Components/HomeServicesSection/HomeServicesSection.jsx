@@ -34,7 +34,9 @@ const HomeServicesSection = () => {
         <div className="home-services-list">
             {servciesArray.map((service)=>(
                 <div className={service.className} key={service.title}>
-                    <img src={service.img} alt={service.title} />
+                    <div>
+                        <img src={service.img} alt={service.title} />    
+                    </div>
                     <h4>{service.title}</h4>
                     <p>{service.description}</p>
                 </div>

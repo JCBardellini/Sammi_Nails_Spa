@@ -14,6 +14,7 @@ a{
   /* grid-template-rows: 0.7675fr 0.3fr 0.6fr 0.3fr 1.375fr 0.5225fr 0.5338fr 0.5fr; */
   gap: 50px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .home-contact-details{
@@ -36,7 +37,6 @@ a{
     align-items: center;
     gap: 30px;
     margin: auto;
-    max-width: 1900px;
     margin-left: -50px;
   }
 
@@ -95,7 +95,8 @@ a{
 /*Queries*/
 @media screen and (min-width:1100px){
   #homepage{
-   grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr;
+   /* grid-template-rows: 500px 540px 1270px 245px 1fr fit-content(470px) 400px 0.1fr; */
+   grid-template-rows: 500px 1fr;
 
   }
 
@@ -148,7 +149,7 @@ padding-left: 0;
 
 @media screen and (min-width: 768px) and (max-width:1099px){
   #homepage{
-    grid-template-rows: 600px 600px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr;
+    grid-template-rows: 600px 1fr;
   }
   .homepage-quote h2{
     width: 90%;
@@ -169,23 +170,27 @@ padding-left: 0;
 
 @media screen and (max-width:767px) {
   #homepage{
-    grid-template-rows:500px 847px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr;
+    gap: 20px;
+    grid-template-rows: 400px 1fr;
+    /* grid-template-rows:500px 700px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr; */
   }
   .homepage-quote{
-height: 216px;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    height: 200px;
   }
   .homepage-quote h2{
-    width: 311px;
     color: #000;
-text-align: center;
-
-/* Heading/H4 - Mobile */
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; /* 33.6px */
-border: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    line-height: 140%;
+    border: none;
   }
   .homepage-quote button{
     display: flex;
