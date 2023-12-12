@@ -76,4 +76,16 @@
   .waxing-title {
     font-size: 30px;
   }
+
+}
+
+@media (max-width: 600px) {
+  .wax-service {
+      flex-direction: column;
+    }
+  
+    .service-one,
+    .service-two {
+      width: 100%;
+    }
 }
