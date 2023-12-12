@@ -11,8 +11,11 @@ const Contact = () => {
       <ContactUs />
 
       {/* Form form  */}
+     
 
       <ContactForm />
+      
+
 
       {/* Google Maps API, when click it pulls up the address */}
 

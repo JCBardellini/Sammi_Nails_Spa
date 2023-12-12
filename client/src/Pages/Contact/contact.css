@@ -20,22 +20,31 @@
 
 
 
-
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   #contact-container {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 25px;
   }
-}
+
+  /* Reset grid properties for all child elements */
+  #contactUs-container,
+  #contact-form,
+  #google-map-container,
+  #contact-container  {
+    grid-column: unset;
+    grid-row: unset;
+    width: 100%; /* Make each child take full width */
+  }
+  
+
 
 /* 
-@media screen and (min-width: 375px max-width: 430px) 
-@media screen and (min-width: 431px max-width: 767px) 
-@media screen and (min-width:768 and max-width: 1023px) 
+@media screen and ( max-width: 600px) 
+@media screen and ( max-width: 767px) 
+@media screen and (max-width: 1023px) 
 @media screen and (min-width: 1024px) 
     
 */
