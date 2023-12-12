@@ -27,8 +27,7 @@ const AboutContent = () => {
 
   return (
     <section id="aboutContainer">
-      <h2 className="aboutTitle">Who we are</h2>
-      <div className="whoWeAreContainer">
+      <div className="who-we-are-container">
         <div className="aboutContent">
           {aboutContent.map((par) => (
             <p key={par.paragraph}>{par.content} </p>

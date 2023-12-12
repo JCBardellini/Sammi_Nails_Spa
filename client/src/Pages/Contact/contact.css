@@ -31,3 +31,11 @@
     margin-top: 25px;
   }
 }
+
+/* 
+@media screen and (min-width: 375px max-width: 430px) 
+@media screen and (min-width: 431px max-width: 767px) 
+@media screen and (min-width:768 and max-width: 1023px) 
+@media screen and (min-width: 1024px) 
+    
+*/
