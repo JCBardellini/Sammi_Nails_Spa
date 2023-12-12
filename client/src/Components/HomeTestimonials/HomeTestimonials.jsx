@@ -68,7 +68,7 @@ const HomeTestimonials = () => {
       const customer = arrayOfReviews[currentCustomerIndex];
 
   return (
-    <div className="testimonials">
+    <section className="testimonials">
         <h1>They're Talking</h1>
             <div className='carousel'>
                 <div className="testimonial">
@@ -80,7 +80,7 @@ const HomeTestimonials = () => {
                     </div>
             </div>
         </div>
-</div>
+</section>
   )
 }
 

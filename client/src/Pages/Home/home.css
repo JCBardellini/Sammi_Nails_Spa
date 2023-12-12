@@ -27,7 +27,7 @@ a{
     grid-row: 4;
     text-align: center;
     padding-bottom:10px;
-    width: 100%;
+    width: calc(100% + 100px);
     height: 243px;
     flex-shrink: 0;
     display: flex;
@@ -37,6 +37,7 @@ a{
     gap: 30px;
     margin: auto;
     max-width: 1900px;
+    margin-left: -50px;
   }
 
   .homepage-quote h2{
@@ -147,8 +148,13 @@ padding-left: 0;
 
 @media screen and (min-width: 768px) and (max-width:1099px){
   #homepage{
-    grid-template-rows: 500px 847px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr;
+    grid-template-rows: 600px 600px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr;
   }
+  .homepage-quote h2{
+    width: 90%;
+    margin: auto;
+  }
+
  .home-contact-area{
   flex-direction: row;
  }
@@ -166,7 +172,6 @@ padding-left: 0;
     grid-template-rows:500px 847px 0.5fr 235px 0.5fr fit-content(430px) 393px 0.1fr;
   }
   .homepage-quote{
-    width: 100%;
 height: 216px;
   }
   .homepage-quote h2{

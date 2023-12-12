@@ -75,7 +75,7 @@ line-height: 150%; /* 30px */
   }
   
   .home-services-list img{
-    width: 363px;
+    width: 100%;
     height: fit-content;
     flex-shrink: 0;
   } 
@@ -96,7 +96,7 @@ line-height: 150%; /* 30px */
 .home-services-list div{
     display: flex;
     flex-direction: column;
-    width: 363px;
+    width: 290px;
     flex-shrink: 0;
     justify-content: space-around;
     height: 100%;
@@ -125,7 +125,6 @@ line-height: 150%; /* 30px */
   @media screen and (min-width: 768px) and (max-width:1099px){
     .home-services-section{
     margin: auto;
-    width: 768px;
     }
     .home-services-title{
       width: 100%;

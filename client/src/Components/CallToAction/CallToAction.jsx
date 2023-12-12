@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const CallToAction = () => {
   return (
-    <div className="cta">
+    <section className="cta">
     <h2>Express Yourself with Unique Nails</h2>
     <p>Book an appointment today and let your nails shine with creativity.</p>
     <div className='cta-button-container'>
@@ -14,7 +14,7 @@ const CallToAction = () => {
         <button  className='learn-more'>Learn More</button>
     </Link>
     </div>
-</div>
+</section>
   )
 }
 
