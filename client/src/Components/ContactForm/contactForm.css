@@ -36,11 +36,12 @@
     border-radius: 5px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 824px) {
   #contact-form{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0;
   }
   
   #contact-page-contact-form{
@@ -50,12 +51,10 @@
   
 }
 @media (max-width: 600px) {
-  #contact-form {
-    padding-left: 0; 
-  }
+
 
   #contact-form .name-fields {
     flex-direction: column; 
-    gap: 20px;
+    gap: 30px;
   }
 }

@@ -1,3 +1,10 @@
 #google-map-container {
     margin: 10px 0 30px 0;
 }
+
+@media (max-width: 824px) {
+    #google-map-container {
+        width: 100%;
+    }
+
+}

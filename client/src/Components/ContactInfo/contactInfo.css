@@ -18,12 +18,14 @@
 @media screen and (max-width: 600px) {
     #contactInfo {
       flex-direction: column; 
-      align-items: flex-start; 
+      align-items: center; 
+      gap: 30px;
     }
   
     .contactContainer {
       width: 100%; 
-      margin-bottom: 20px; 
+      align-items: center;
+      text-align: center;
     }
   
   }

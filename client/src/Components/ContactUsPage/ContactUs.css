@@ -11,32 +11,23 @@ height: 500px;
 }
 .contact-title {
     font-size: 48px;
-    font-weight: bold;
+    line-height: 150%;
 }
 
 
 
 @media (max-width: 767px) {
-    .contactUs-container {
+    #contactUs-container {
         grid-template-columns: 1fr;
-        max-width: 400px;
+        height: auto;
     }
-    
+    .contact-info, .contact-title {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .contact-title {
+        padding-bottom: 10px;
+    }
 
-    .contact-details .detail, .contact-info {
-      
-        flex-basis: 90%;
-        max-width: 90%;
-        justify-self: center;
-    }
-
-    .contact-info{
-        min-width: 0;
-        max-width: 100%;
-        text-align: left;
-    }
-    .contactUs-container{
-       
-    width: 100%;
-    }
 }
