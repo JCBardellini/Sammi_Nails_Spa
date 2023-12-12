@@ -17,7 +17,7 @@ h5 {
 }
 
 
-@media  screen and (max-width:767px) {
+@media  screen and (max-width: 824px) {
   body{
     margin: 0 30px;
   }

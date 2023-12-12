@@ -24,3 +24,31 @@
     margin: 10px 0;
     width: 45%;
 }
+@media (max-width: 824px) {
+  #kids-services {
+    width: 80%;
+  }
+  .kids-title {
+    width: 100%;
+    font-size: 32px;
+  }
+  .services-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .kid-service {
+    width: 100%;
+  }
+  .kids-image {
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .kids-title {
+    font-size: 30px;
+  }
+}

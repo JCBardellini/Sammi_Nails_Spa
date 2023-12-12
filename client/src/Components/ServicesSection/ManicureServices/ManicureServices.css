@@ -30,3 +30,28 @@
   flex-direction: column;
   text-align: right;
 }
+@media (max-width: 900px) {
+  .mani-description {
+    height: auto;
+    text-align: left;
+  }
+
+}
+@media (max-width: 824px) {
+  #manicure {
+    width: 100%;
+  }
+  .mani-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mani-title {
+    font-size: 30px;
+  }
+
+  .category-title {
+    font-size: 24px;
+  }
+}

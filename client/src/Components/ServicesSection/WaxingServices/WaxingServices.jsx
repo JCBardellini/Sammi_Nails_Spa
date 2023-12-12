@@ -24,7 +24,7 @@ const WaxingServices = () => {
     <section id="waxing-services">
       <h2 className="waxing-title">Waxing</h2>
 
-      <div className="services-container">
+      <div className="services-container-wax">
         <img src={wax} alt="waxImage" className="waxImage" />
         <div className="wax-service">
           <ul className="service-one">

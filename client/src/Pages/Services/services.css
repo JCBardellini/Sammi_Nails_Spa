@@ -28,13 +28,14 @@
   text-align: center;
   color: white;
   font-size: 40px;
+  line-height: 150%;
 }
 
 .options-title {
   grid-column: span 2;
   text-align: center;
   padding-bottom: 30px;
-  font-size: 48px;
+  font-size: 40px;
   margin-top: 20px;
   position: relative;
 }
@@ -74,27 +75,28 @@
 
 
 
-
-@media screen and (min-width:1100px){
-  .service-list{
-    flex-direction: column;
-    gap: 0px;
+@media (max-width: 824px) {
+  #services-section {
+    grid-template-columns: 1fr;
   }
-  .services-section {
-    top: 8%;
+  .options-title {
+    font-size: 32px;
+  }
+  .heroImage h2 {
+    font-size: 32px;
+  }
+    .heroImage img {
+      width: calc(100% + 60px);
+    }
+  .mani-pedi {
+    flex-direction: column;
   }
 }
-
-@media (max-width: 767px) {
-  .mani-and-pedi{
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+@media (max-width: 700px) {
+  .options-title {
+    font-size: 30px;
   }
-  .service-list{
-    gap: 0;
-  }
-  .services-section .service-page-hero-text{
-    top: 15%;
+  .heroImage h2 {
+    font-size: 30px;
   }
 }

@@ -30,18 +30,21 @@
 }
 
 
-
-
-@media (max-width: 760px) {
-  .most-and-deals{
+@media (max-width: 700px) {
+  #popular-options {
     flex-direction: column;
-    gap: 10px;
+    height: auto;
   }
-}
-
-
-@media screen and (min-width:1100px) {
-  .most-and-deals{
-    gap: 100px;
+  .popular-title {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 24px;
+  }
+  .options-container {
+    width: 100%;
+  }
+  .most-requested {
+    height: auto;
+    margin-bottom: 10px;
   }
 }
