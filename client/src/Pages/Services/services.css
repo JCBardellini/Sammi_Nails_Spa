@@ -68,6 +68,9 @@
   width: 80%;
   margin: 10px auto;
 }
+.service-cta {
+  grid-column: span 2;
+}
 
 
 

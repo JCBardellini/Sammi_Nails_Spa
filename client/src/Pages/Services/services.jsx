@@ -5,6 +5,7 @@ import ManicureServices from "../../components/ServicesSection/ManicureServices/
 import PedicureServices from "../../components/ServicesSection/PedicureServices/PedicureServices";
 import WaxingServices from "../../components/ServicesSection/WaxingServices/WaxingServices";
 import KidsServices from "../../components/ServicesSection/KidsServices/KidsServices";
+import CallToAction from "../../Components/CallToAction/CallToAction";
 
 const Services = () => {
   return (
@@ -25,6 +26,10 @@ const Services = () => {
         <PedicureServices />
       </section>
 
+      {/* call to action */}
+      <div className="service-cta">
+        <CallToAction />
+      </div>
       {/* Kids Services */}
       <KidsServices />
 
