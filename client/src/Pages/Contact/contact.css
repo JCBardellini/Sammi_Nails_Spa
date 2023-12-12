@@ -29,15 +29,7 @@
     margin-top: 25px;
   }
 
-  /* Reset grid properties for all child elements */
-  #contactUs-container,
-  #contact-form,
-  #google-map-container,
-  #contact-container  {
-    grid-column: unset;
-    grid-row: unset;
-    width: 100%; /* Make each child take full width */
-  }
+}
   
 
 
