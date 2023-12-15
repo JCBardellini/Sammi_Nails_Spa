@@ -2,9 +2,9 @@ import "./PopularOptions.css"; // Make sure to create and style this CSS file
 
 // Data for most requested services
 const mostRequestedServices = [
-  { name: "Classic Manicure with Gel Polish", price: "$40" },
+  { name: "Classic Manicure with Gel Polish", price: "$35" },
   { name: "Detox Volcano Pedicure", price: "$65" },
-  { name: "Jelly Treatment Pedicure", price: "$55" },
+  { name: "Jelly Treatment Pedicure", price: "$65" },
 ];
 
 // Data for combination deals

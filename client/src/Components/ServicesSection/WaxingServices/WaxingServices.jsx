@@ -4,7 +4,7 @@ import wax from "../../../Assets/Images/img32.png";
 const WaxingServices = () => {
   const waxingServicesOne = [
     { name: "Eyebrow", price: "$15" },
-    { name: "Lip", price: "$15" },
+    { name: "Lip", price: "$10" },
     { name: "Chin", price: "$12+" },
     { name: "Side Burns", price: "$16" },
     { name: "Full Face", price: "$40+" },
