@@ -35,7 +35,6 @@
   color: var(--Black, #000);
 text-align: center;
 /* Heading/H2 */
-font-family: Roboto;
 font-style: normal;
 font-size: 48px;
 font-weight: 700;
@@ -47,7 +46,7 @@ line-height: 120%; /* 57.6px */
 flex-shrink: 0;
   color: var(--Black, #000);
 /* Text/Large/Normal */
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 30px */
@@ -74,7 +73,6 @@ line-height: 150%; /* 30px */
 text-align: center;
 
 /* Heading/H2 */
-font-family: Roboto;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -85,7 +83,6 @@ line-height: 120%; /* 57.6px */
       color: var(--Black, #000);
 
 /* Text/Large/Normal */
-font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -129,7 +126,7 @@ line-height: 150%; /* 30px */
 text-align: center;
 
 /* Heading/H4 - Mobile */
-font-family: Roboto;
+
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -141,8 +138,7 @@ width: 100%;
     .after-hero-comp p{
       color: var(--Black, #000);
       width: 100%;
-/* Text/Regular/Normal */
-font-family: Roboto;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
