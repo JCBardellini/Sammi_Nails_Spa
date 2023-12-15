@@ -9,6 +9,9 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { Link } from "react-router-dom";
 import HomeServicesSection from "../../Components/HomeServicesSection/HomeServicesSection";
 import CallToAction from "../../Components/CallToAction/CallToAction";
+import ContactUs from "../../components/ContactUsPage/ContactUs";
+import GoogleMap from "../../components/GoogleMap/GoogleMap";
+import ContactForm from "../../components/ContactForm/contactForm";
 
 const Home = () => {
   return (
@@ -45,6 +48,15 @@ const Home = () => {
         <CallToAction />
         {/* Contact  */}
       </div>
+      <section>
+        <div className="home-contact-container">
+          <ContactUs />
+          <ContactForm />
+        </div>
+        <div>
+          <GoogleMap />
+        </div>
+      </section>
     </>
   );
 };
