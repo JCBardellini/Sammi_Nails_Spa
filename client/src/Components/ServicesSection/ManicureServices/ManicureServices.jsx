@@ -7,7 +7,7 @@ const manicureServicesData = [
     category: "The Classics",
     services: [
       { name: "Classic Manicure", price: "$25" },
-      { name: "Classic Manicure with Gel Polish", price: "$40" },
+      { name: "Classic Manicure with Gel Polish", price: "$35" },
       { name: "Deluxe Manicure", price: "$35" },
       { name: "Deluxe Manicure with Gel Polish", price: "$50" },
     ],
