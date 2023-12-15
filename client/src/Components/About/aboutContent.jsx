@@ -33,7 +33,9 @@ const AboutContent = () => {
             <p key={par.paragraph}>{par.content} </p>
           ))}
         </div>
-        <img className="ownersImg" src={ownersImg.src} alt={ownersImg.alt} />
+        <div className="owner-image-container">
+          <img className="ownersImg" src={ownersImg.src} alt={ownersImg.alt} />
+        </div>
       </div>
     </section>
   );

@@ -31,5 +31,46 @@
   margin-left: 20px;
   line-height: 150%;
 }
+@media (max-width: 824px) {
+  .about-hero-image .aboutHeroTitle {
+    font-size: 32px;
+  }
+  .about-hero-image {
+    width: calc(100% + 60px);
+    height: 400px;
+    margin-left: -30px;
+  }
+  .about-hero-image img {
+    height: 100%;
+  }
 
+  .mani-pedi {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .options-title {
+    font-size: 30px;
+  }
+
+  .heroImage h2 {
+    font-size: 30px;
+  }
+  .about-hero-image .aboutHeroTitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-hero-image {
+    height: 275px;
+  }
   
+}
+@media (max-width: 450px) {
+  .about-hero-image {
+    height: 250px;
+  }
+  
+}
