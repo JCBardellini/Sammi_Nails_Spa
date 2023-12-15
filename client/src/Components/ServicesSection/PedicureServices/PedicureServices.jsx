@@ -7,7 +7,7 @@ const PedicureServices = () => {
       description: "All our pedicure services offer a comprehensive experience",
       items: [
         { name: "Classic Pedicure", price: "$35" },
-        { name: "Classic Pedicure with Gel Polish", price: "$55" },
+        // { name: "Classic Pedicure with Gel Polish", price: "$55" },
       ],
     },
     {
@@ -16,7 +16,7 @@ const PedicureServices = () => {
         "Includes paraffin wax or hot oil treatment with a soothing hot stone massage.",
       items: [
         { name: "Spa Pedicure", price: "$45" },
-        { name: "Spa Pedicure with Gel Polish", price: "$65" },
+        // { name: "Spa Pedicure with Gel Polish", price: "$65" },
       ],
     },
     {

@@ -24,8 +24,12 @@ const Footer = () => {
   };
   const hours = [
     {
-      day: "Mon - Sat",
+      day: "Mon - Fri",
       hours: "9:30 AM - 7:00 PM",
+    },
+    {
+      day: "Sat",
+      hours: "9:00 AM - 6:00 PM",
     },
     {
       day: "Sunday",
